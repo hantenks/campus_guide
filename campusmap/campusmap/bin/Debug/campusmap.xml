@@ -1,0 +1,352 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+campusmap
+</name>
+</assembly>
+<members>
+<member name="P:campusmap.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources._1421199215_location_alt_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.aclake">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.acplant">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.adminbldg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.akshara">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.aseb">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.athfield">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.audicircle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.auditorium">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.bank">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.barak">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.basky">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.bblock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.biotechnology">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.brahmo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.campMap">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cblock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cc">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cee">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cet">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cfe">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.chem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.chemical">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.chs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cif">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.civil">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cnt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.confhall">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.core1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.core2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.core3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.core4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cric">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.cse">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.dblock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.design">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.dhansiri">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.dibang">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.dihing">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.dir">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.eblock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.EEE">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.football">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.guesth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.hockey">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.hospital">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.hss">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.iitg_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.kameng">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.kapili">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.kv">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.kvgate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.lake">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.layer4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.library">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.lt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.main_gate">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.manas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.market_complex">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.married">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.math">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.mch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.mech">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.phy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.pool">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.power">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.sac">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.serp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.siang">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.subansiri">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.tc">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.tennis">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.treasure_map1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.treasure_map11">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.treasure_map12">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.umiam">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.viewpoint">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.volley">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.water">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.workshop">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.XData">
+	<summary>
+  Looks up a localized string similar to 1266|ac|379|admin|338|akshara|568|aseb|580|athletic|490|audi|372|barak|598|bt|343|brahmo|506|bblock|435|cblock|347|environment|350|energy|346|chem|350|cet|351|ce|307|facultyHall|405|cc|362|conference|355|cricket|456|cse|350|dd|349|dibang|458|dihing|532|dblock|298|dblock2|297|dblock3|257|eee|353|eblock|273|eblock2|211|football|456|guesthouse|414|hockey|458|hospital|462|hss|307|guestlake|449|iitglake|396|kameng|595|kapili|458|kv|456|manas|491|marketComplex|232|married|497|mech|315|phy|307|siang|458|subansiri| [rest of string was truncated]";.
+</summary>
+</member><member name="P:campusmap.My.Resources.Resources.YData">
+	<summary>
+  Looks up a localized string similar to 780|ac|436|admin|367|akshara|208|aseb|165|athletic|279|audi|344|barak|390|bt|522|brahmo|462|bblock|80|cblock|98|environment|508|energy|532|chem|494|cet|455|ce|508|facultyHall|113|cc|394|conference|344|cricket|349|cse|467|dd|438|dibang|449|dihing|422|dblock|135|dblock2|202|dblock3|255|eee|481|eblock|222|eblock2|295|football|281|guesthouse|208|hockey|316|hospital|178|hss|478|guestlake|228|iitglake|346|kameng|367|kapili|421|kv|488|manas|422|marketComplex|209|married|218|mech|445|phy|532|siang|390|subansiri|272 [rest of string was truncated]";.
+</summary>
+</member><member name="T:campusmap.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

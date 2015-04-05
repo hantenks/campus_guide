@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9543A2D7-E51E-42B5-963C-82CAB0000FEE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>campusmap.My.MyApplication</StartupObject>
+    <RootNamespace>campusmap</RootNamespace>
+    <AssemblyName>campusmap</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>B:\Acad\Course Material\Semester 4\CS244\CampusExplorerFinal\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>campusmap.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>campusmap.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1421198883_126573.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5909397197A810737C2262159259DEDA50A197C1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>campusmap_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="DetailMap.Designer.vb">
+      <DependentUpon>DetailMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetailMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsForm.Designer.vb">
+      <DependentUpon>DetailsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CampusTour.Designer.vb">
+      <DependentUpon>CampusTour.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CampusTour.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectionsForm.Designer.vb">
+      <DependentUpon>DirectionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DirectionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DetailMap.resx">
+      <DependentUpon>DetailMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailsForm.resx">
+      <DependentUpon>DetailsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CampusTour.resx">
+      <DependentUpon>CampusTour.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectionsForm.resx">
+      <DependentUpon>DirectionsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="campusmap_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ac plant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrative building.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akshara school.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASEB gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\athletic field.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auditorium circle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auditorium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank complex.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barak hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket ball court.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biotechnology.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brahmaputra hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b-type.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\central instruments facility.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\centre for educational technology.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\centre for energy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\centre for environment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\centre for nanotechnology.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chemical eng.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chemistry dep.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\civil eng.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\community hall sarpentine lake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer centre%27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conference hall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\core1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\core2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\core3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\core4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cricket field.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c-type.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design dep.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dhansiri hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dibang hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dihing hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\director banglow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d-type.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EEE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e-type.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football ground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guest house.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hockey ground.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iitg lake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indoor games.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kameng hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kapili hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kv gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kv school.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lake infront of acadmic complex.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lecture halls.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_gate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manas community hall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manas hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\market_complex.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\married scholars hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mathematics dep.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mechanical eng. dep..jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\physics dep.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power house.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serpentine lake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siang hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subansiri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swimming pool.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technology complex and biotech park.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tennis court.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\umiam hostel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewpoint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volleyball court.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water plant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\workshop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treasure_map12.jpg" />
+    <None Include="Resources\treasure_map11.jpg" />
+    <None Include="Resources\treasure_map1.jpg" />
+    <None Include="Resources\YData.txt" />
+    <None Include="Resources\XData.txt" />
+    <None Include="Resources\iitg_large.gif" />
+    <Content Include="1421198883_126573.ico" />
+    <None Include="Resources\1421199215_location-alt-512.png" />
+    <None Include="Resources\campMap.png" />
+    <Content Include="Resources\layer4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
